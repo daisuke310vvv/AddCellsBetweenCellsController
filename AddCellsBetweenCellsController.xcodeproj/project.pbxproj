@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE06AA21174127740029C721 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA20174127740029C721 /* UIKit.framework */; };
+		BE06AA23174127740029C721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA22174127740029C721 /* Foundation.framework */; };
+		BE06AA25174127740029C721 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA24174127740029C721 /* CoreGraphics.framework */; };
+		BE06AA2B174127740029C721 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE06AA29174127740029C721 /* InfoPlist.strings */; };
+		BE06AA2D174127740029C721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06AA2C174127740029C721 /* main.m */; };
+		BE06AA31174127740029C721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06AA30174127740029C721 /* AppDelegate.m */; };
+		BE06AA33174127740029C721 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06AA32174127740029C721 /* Default.png */; };
+		BE06AA35174127740029C721 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06AA34174127740029C721 /* Default@2x.png */; };
+		BE06AA37174127740029C721 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06AA36174127740029C721 /* Default-568h@2x.png */; };
+		BE06AA45174127750029C721 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA44174127750029C721 /* SenTestingKit.framework */; };
+		BE06AA46174127750029C721 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA20174127740029C721 /* UIKit.framework */; };
+		BE06AA47174127750029C721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE06AA22174127740029C721 /* Foundation.framework */; };
+		BE06AA4F174127750029C721 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE06AA4D174127750029C721 /* InfoPlist.strings */; };
+		BE06AA52174127750029C721 /* AddCellsBetweenCellsControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06AA51174127750029C721 /* AddCellsBetweenCellsControllerTests.m */; };
+		BE06AA5D174127AE0029C721 /* AddCellsBetweenCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE06AA5C174127AE0029C721 /* AddCellsBetweenCellsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE06AA48174127750029C721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE06AA15174127740029C721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE06AA1C174127740029C721;
+			remoteInfo = AddCellsBetweenCellsController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE06AA1D174127740029C721 /* AddCellsBetweenCellsController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddCellsBetweenCellsController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE06AA20174127740029C721 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE06AA22174127740029C721 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE06AA24174127740029C721 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE06AA28174127740029C721 /* AddCellsBetweenCellsController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddCellsBetweenCellsController-Info.plist"; sourceTree = "<group>"; };
+		BE06AA2A174127740029C721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE06AA2C174127740029C721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE06AA2E174127740029C721 /* AddCellsBetweenCellsController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddCellsBetweenCellsController-Prefix.pch"; sourceTree = "<group>"; };
+		BE06AA2F174127740029C721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE06AA30174127740029C721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE06AA32174127740029C721 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE06AA34174127740029C721 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE06AA36174127740029C721 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE06AA43174127750029C721 /* AddCellsBetweenCellsControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddCellsBetweenCellsControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE06AA44174127750029C721 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE06AA4C174127750029C721 /* AddCellsBetweenCellsControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddCellsBetweenCellsControllerTests-Info.plist"; sourceTree = "<group>"; };
+		BE06AA4E174127750029C721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE06AA50174127750029C721 /* AddCellsBetweenCellsControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCellsBetweenCellsControllerTests.h; sourceTree = "<group>"; };
+		BE06AA51174127750029C721 /* AddCellsBetweenCellsControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCellsBetweenCellsControllerTests.m; sourceTree = "<group>"; };
+		BE06AA5B174127AE0029C721 /* AddCellsBetweenCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCellsBetweenCellsController.h; sourceTree = "<group>"; };
+		BE06AA5C174127AE0029C721 /* AddCellsBetweenCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCellsBetweenCellsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE06AA1A174127740029C721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA21174127740029C721 /* UIKit.framework in Frameworks */,
+				BE06AA23174127740029C721 /* Foundation.framework in Frameworks */,
+				BE06AA25174127740029C721 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE06AA3F174127750029C721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA45174127750029C721 /* SenTestingKit.framework in Frameworks */,
+				BE06AA46174127750029C721 /* UIKit.framework in Frameworks */,
+				BE06AA47174127750029C721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE06AA14174127740029C721 = {
+			isa = PBXGroup;
+			children = (
+				BE06AA26174127740029C721 /* AddCellsBetweenCellsController */,
+				BE06AA4A174127750029C721 /* AddCellsBetweenCellsControllerTests */,
+				BE06AA1F174127740029C721 /* Frameworks */,
+				BE06AA1E174127740029C721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE06AA1E174127740029C721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA1D174127740029C721 /* AddCellsBetweenCellsController.app */,
+				BE06AA43174127750029C721 /* AddCellsBetweenCellsControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE06AA1F174127740029C721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA20174127740029C721 /* UIKit.framework */,
+				BE06AA22174127740029C721 /* Foundation.framework */,
+				BE06AA24174127740029C721 /* CoreGraphics.framework */,
+				BE06AA44174127750029C721 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE06AA26174127740029C721 /* AddCellsBetweenCellsController */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA2F174127740029C721 /* AppDelegate.h */,
+				BE06AA30174127740029C721 /* AppDelegate.m */,
+				BE06AA5B174127AE0029C721 /* AddCellsBetweenCellsController.h */,
+				BE06AA5C174127AE0029C721 /* AddCellsBetweenCellsController.m */,
+				BE06AA27174127740029C721 /* Supporting Files */,
+			);
+			path = AddCellsBetweenCellsController;
+			sourceTree = "<group>";
+		};
+		BE06AA27174127740029C721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA28174127740029C721 /* AddCellsBetweenCellsController-Info.plist */,
+				BE06AA29174127740029C721 /* InfoPlist.strings */,
+				BE06AA2C174127740029C721 /* main.m */,
+				BE06AA2E174127740029C721 /* AddCellsBetweenCellsController-Prefix.pch */,
+				BE06AA32174127740029C721 /* Default.png */,
+				BE06AA34174127740029C721 /* Default@2x.png */,
+				BE06AA36174127740029C721 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE06AA4A174127750029C721 /* AddCellsBetweenCellsControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA50174127750029C721 /* AddCellsBetweenCellsControllerTests.h */,
+				BE06AA51174127750029C721 /* AddCellsBetweenCellsControllerTests.m */,
+				BE06AA4B174127750029C721 /* Supporting Files */,
+			);
+			path = AddCellsBetweenCellsControllerTests;
+			sourceTree = "<group>";
+		};
+		BE06AA4B174127750029C721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE06AA4C174127750029C721 /* AddCellsBetweenCellsControllerTests-Info.plist */,
+				BE06AA4D174127750029C721 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE06AA1C174127740029C721 /* AddCellsBetweenCellsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE06AA55174127750029C721 /* Build configuration list for PBXNativeTarget "AddCellsBetweenCellsController" */;
+			buildPhases = (
+				BE06AA19174127740029C721 /* Sources */,
+				BE06AA1A174127740029C721 /* Frameworks */,
+				BE06AA1B174127740029C721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddCellsBetweenCellsController;
+			productName = AddCellsBetweenCellsController;
+			productReference = BE06AA1D174127740029C721 /* AddCellsBetweenCellsController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE06AA42174127750029C721 /* AddCellsBetweenCellsControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE06AA58174127750029C721 /* Build configuration list for PBXNativeTarget "AddCellsBetweenCellsControllerTests" */;
+			buildPhases = (
+				BE06AA3E174127750029C721 /* Sources */,
+				BE06AA3F174127750029C721 /* Frameworks */,
+				BE06AA40174127750029C721 /* Resources */,
+				BE06AA41174127750029C721 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE06AA49174127750029C721 /* PBXTargetDependency */,
+			);
+			name = AddCellsBetweenCellsControllerTests;
+			productName = AddCellsBetweenCellsControllerTests;
+			productReference = BE06AA43174127750029C721 /* AddCellsBetweenCellsControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE06AA15174127740029C721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "sato daisuke";
+			};
+			buildConfigurationList = BE06AA18174127740029C721 /* Build configuration list for PBXProject "AddCellsBetweenCellsController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE06AA14174127740029C721;
+			productRefGroup = BE06AA1E174127740029C721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE06AA1C174127740029C721 /* AddCellsBetweenCellsController */,
+				BE06AA42174127750029C721 /* AddCellsBetweenCellsControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE06AA1B174127740029C721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA2B174127740029C721 /* InfoPlist.strings in Resources */,
+				BE06AA33174127740029C721 /* Default.png in Resources */,
+				BE06AA35174127740029C721 /* Default@2x.png in Resources */,
+				BE06AA37174127740029C721 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE06AA40174127750029C721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA4F174127750029C721 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE06AA41174127750029C721 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE06AA19174127740029C721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA2D174127740029C721 /* main.m in Sources */,
+				BE06AA31174127740029C721 /* AppDelegate.m in Sources */,
+				BE06AA5D174127AE0029C721 /* AddCellsBetweenCellsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE06AA3E174127750029C721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06AA52174127750029C721 /* AddCellsBetweenCellsControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE06AA49174127750029C721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE06AA1C174127740029C721 /* AddCellsBetweenCellsController */;
+			targetProxy = BE06AA48174127750029C721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE06AA29174127740029C721 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE06AA2A174127740029C721 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE06AA4D174127750029C721 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE06AA4E174127750029C721 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE06AA53174127750029C721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE06AA54174127750029C721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE06AA56174127750029C721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Prefix.pch";
+				INFOPLIST_FILE = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE06AA57174127750029C721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Prefix.pch";
+				INFOPLIST_FILE = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE06AA59174127750029C721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddCellsBetweenCellsController.app/AddCellsBetweenCellsController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Prefix.pch";
+				INFOPLIST_FILE = "AddCellsBetweenCellsControllerTests/AddCellsBetweenCellsControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE06AA5A174127750029C721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddCellsBetweenCellsController.app/AddCellsBetweenCellsController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddCellsBetweenCellsController/AddCellsBetweenCellsController-Prefix.pch";
+				INFOPLIST_FILE = "AddCellsBetweenCellsControllerTests/AddCellsBetweenCellsControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE06AA18174127740029C721 /* Build configuration list for PBXProject "AddCellsBetweenCellsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE06AA53174127750029C721 /* Debug */,
+				BE06AA54174127750029C721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE06AA55174127750029C721 /* Build configuration list for PBXNativeTarget "AddCellsBetweenCellsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE06AA56174127750029C721 /* Debug */,
+				BE06AA57174127750029C721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE06AA58174127750029C721 /* Build configuration list for PBXNativeTarget "AddCellsBetweenCellsControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE06AA59174127750029C721 /* Debug */,
+				BE06AA5A174127750029C721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE06AA15174127740029C721 /* Project object */;
+}
